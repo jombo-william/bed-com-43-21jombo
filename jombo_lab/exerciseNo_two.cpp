@@ -1,3 +1,4 @@
+// this code generates random numbers using the switch statements 
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -6,8 +7,8 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    int days_reman= rand() % 12; // Generates a random number between 0 and 11
-// giving the switch status 
+    int days_reman= rand() % 12; 
+ 
     switch (days_reman) {
         case 0:
             cout << "Your subscription has expired." << endl;
@@ -17,7 +18,7 @@ int main() {
             cout << "Your subscription expires within a day!" << endl;
             cout << "Renew now and save 20%!" << endl;
             break;
-            // when the random number generated is in the range of 2 to 5 
+
         case 2:
         case 3:
         case 4:
@@ -25,15 +26,15 @@ int main() {
             cout << "Your subscription expires in " << days_reman << " days." << endl;
             cout << "Renew now and save 10%!" << endl;
             break;
-            // when the random number generated is in the range of 6 to 10
+
         case 6:
         case 7:
         case 8:
         case 9:
         case 10:
-            cout << "Your subscription will expire soon. Renew now!" << endl;
+
             break;
-            // when the number is 11  will output the following default setement 
+
         default:
             cout << "You have an active subscription." << endl;
             break;
