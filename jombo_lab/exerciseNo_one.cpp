@@ -1,4 +1,4 @@
-
+// code to prompt the user to generate random number and display the message depending on the codition 
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -6,11 +6,11 @@
 using namespace std;
 
 int main() {
-    // generating random numbers between 0 and 11
+    
     srand(time(0));
     int days_remaining = rand() % 12; 
 
-    // generating the results based on the random number 
+    
     if ( days_remaining <= 0) {
         cout << "Your subscription has expired." << endl;
     } else if ( days_remaining <= 1) {
