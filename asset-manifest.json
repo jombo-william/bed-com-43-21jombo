@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bed-com-43-21jombo/static/css/main.26a3d7b5.css",
+    "main.js": "/bed-com-43-21jombo/static/js/main.65d5e48c.js",
+    "static/js/453.acc747bb.chunk.js": "/bed-com-43-21jombo/static/js/453.acc747bb.chunk.js",
+    "static/media/kk.jpg": "/bed-com-43-21jombo/static/media/kk.e1021491ce79a9524733.jpg",
+    "index.html": "/bed-com-43-21jombo/index.html",
+    "main.26a3d7b5.css.map": "/bed-com-43-21jombo/static/css/main.26a3d7b5.css.map",
+    "main.65d5e48c.js.map": "/bed-com-43-21jombo/static/js/main.65d5e48c.js.map",
+    "453.acc747bb.chunk.js.map": "/bed-com-43-21jombo/static/js/453.acc747bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26a3d7b5.css",
+    "static/js/main.65d5e48c.js"
+  ]
+}
