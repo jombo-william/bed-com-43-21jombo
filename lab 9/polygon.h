@@ -1,8 +1,11 @@
 #pragma once
-class polygon{
-    protected:
-    int mwidth;
-    int mheight;
-    public :
-    void setvalues(int width, int height );
+
+class Polygon {
+protected:
+    int mWidth;
+    int mHeight;
+public:
+    void SetValues(int width, int height);
+    virtual int Area() = 0;  // Abstract class with pure virtual function
+    void PrintArea();
 };
